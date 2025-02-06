@@ -10,7 +10,7 @@
 ![CSS](https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=css3&logoColor=%231572B6)
 ![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-<h3>📑 Editor Código: </h3>
+<h3>📑 Editores de Código: </h3>
 
 ![P5.js](https://img.shields.io/badge/P5.js-black?style=for-the-badge&logo=p5dotjs&logoColor=%23ED225D)
 ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-%231572B6?style=for-the-badge)
