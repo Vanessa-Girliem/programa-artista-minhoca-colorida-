@@ -20,7 +20,8 @@
 <a href="https://editor.p5js.org/Nessabsl42_/sketches/eBtKSFSIm" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97%20Acesse_o_Projeto%3A_-_%22Programa_Artista%3A_%20Aula_%202%22-%23d0d500?style=for-the-badge&labelColor=black" target="_blank"></a> 
 
 <p></p>
-<p><strong>→ Como executar:</strong></p>
+<code>→ Como executar:</code>
+<p></p>
 <ul>
   <li>Clique no botão de "Play";</li>
   <li>Observe que a minhoca possui somente uma cor, e pressione a tecla direita do mouse;</li>
@@ -29,7 +30,8 @@
 </ul>
 
 <h3>🚀 Obrigada pela atenção!</h3>
-<p><strong>→ Você pode entrar em contato comigo através: </strong></p>
+<code>→ Você pode entrar em contato comigo através:</code>
+<p></p>
 <a href="https://www.linkedin.com/in/vanessaleite18" target="_blank"><img src="https://img.shields.io/badge/Linkedin-%230e76a8?style=for-the-badge&labelColor=black" target="_blank"></a>
 <a href="mailto: vanessabsleite173@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&labelColor=black" target="_blank"></a>
 
