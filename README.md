@@ -26,7 +26,7 @@
   <li>Clique no botão de "Play";</li>
   <li>Observe que a minhoca possui somente uma cor, e pressione a tecla direita do mouse;</li>
   <li>Ao pressionar o botão as cores serão mais variadas e aleatórias, criando uma bela mistura;</li>
-  <li>Se quiser reiniciar as cores, clique em "Stop", e dessa forma as cores voltaram ao padrão inicial,</li>
+  <li>Se quiser reiniciar as cores, clique em "Stop", e dessa forma as cores voltaram ao padrão inicial.</li>
 </ul>
 
 <h3>🚀 Obrigada pela atenção!</h3>
