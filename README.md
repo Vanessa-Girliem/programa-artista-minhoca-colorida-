@@ -29,5 +29,8 @@
 </ul>
 
 <h3>🚀 Obrigada pela atenção!</h3>
+<p><strong>→ Você pode entrar em contato comigo através: </strong></p>
+<a href="https://www.linkedin.com/in/vanessaleite18" target="_blank"><img src="https://img.shields.io/badge/Linkedin-%230e76a8?style=for-the-badge&labelColor=black" target="_blank"></a>
+<a href="mailto: vanessabsleite173@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&labelColor=black" target="_blank"></a>
 
 
