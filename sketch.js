@@ -1,53 +1,41 @@
-let campoIdade;
-let campoFantasia; 
-let campoAventura; 
+let cor;
+let circuloX; // horizontal
+let circulo; // vertical
 
 function setup() {
-  createCanvas(600, 400);
-  createElement("h2", "Recomendador de Filmes")
-  createSpan("Sua idade");
-  campoIdade = createInput("");
-  campoFantasia = createCheckbox("Gosta de Fantasia?");
-  campoAventura = createCheckbox("Gosta de Aventura?");
+  
+  createCanvas(400, 400);// widht x height
+  background(100,0,0);
+  cor = color(random(0,255),random (0, 255), random (0,255));
+  circuloX = [0, 0, 0 ];
+  circuloY = [random(height),random(height), random(height)];
 }
+
+
+// circuloX = 0, 0, 0
+// circuloY = 300, 150, 50
 
 function draw() {
-  background("black");
-  let idade = campoIdade.value();
-  let gostaDeFantasia = campoFantasia.checked();
-  let gostaDeAventura = campoAventura.checked();
-  let recomendacao = geraRecomendacao(idade, gostaDeFantasia);
   
-  fill(color("white"));
-  textAlign(CENTER, CENTER); 
-  textSize(38); 
-  text(recomendacao, width / 2, height / 2);
-}
-
-function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
-  if(idade >= 10) {
-    if(idade >= 14) {
-      return "O menino que descobriu o vento";
-    } else {
-      if (idade >= 12) {
-        if(gostaDeFantasia || gostaDeAventura) {
-          return "Homem Aranha";
-        } else {
-          return "Ladrões de Bicicleta";
-        }
-      } else {
-        if (gostaDeAventura) {
-          return "As Aventuras de Pi";
-        } else {
-          return "Depois da Chuva";
-        }
-      }
+  fill(cor);
+  
+  //console.log(circuloX.lenght);
+  for (let contador in circuloX) {
+    //console.log(contador);
+    circle(circuloX[contador],circuloY[contador],50);
+    circuloX[contador] += random(0, 3);
+    circuloY[contador] += random(-3,3);
+    
+    if(circuloX[contador] >= width) {
+      circuloX[contador] = 0;
+      circuloY[contador] = random(height);
     }
-  } else {
-      if(gostaDeFantasia) {
-      return "A viagem de Chihiro";
-    } else {
-      return "O Feitiço do Tempo";
-    }
+    
   }
+  
+  if (mouseIsPressed) {
+    cor = color(random(0,255),random (0, 255), random (0,255), (0,100));
+  }
+  
+  
 }
